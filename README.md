@@ -5,6 +5,8 @@
 ### Equipo de Desarrollo
 Proyecto colaborativo de 5 integrantes
 
+Scrum Master Carlos Andres Garzon Garcia
+
 ### Tecnologías
 - HTML5
 - CSS3  
