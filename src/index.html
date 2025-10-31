@@ -1,13 +1,162 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flowread - Lectura Intencional</title>
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Nuestro CSS personalizado -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+INSERT INTO U_EMPLEA
+(
+U_EMPLEA_SECUENCIA,
+U_EMPLEA_AUDAUTCRE,
+U_EMPLEA_AUDFECCRE,
+U_EMPLEA_AUDAUTMOD,
+U_EMPLEA_AUDFECMOD,
+U_EMPLEA_AUDTIPMOD,
+U_EMPLEA_CODIGO___,
+U_EMPLEA_CARGOS____U_CARGOS,
+U_EMPLEA_GRUPCOMP__U_GRUCOM,
+U_EMPLEA_TERCEROS__U_TERCER,
+U_EMPLEA_ESTADO___,
+U_EMPLEA_MAILCORP_,
+U_EMPLEA_SEDE______U_GRUCOM
+)
+VALUES
+(
+U_EMPLEA_SEQ.NEXTVAL,
+'orion',
+SYSDATE, -- puede ser SYSDATE
+'orion',
+SYSDATE, -- Puede ser SYSDATE o este formato TO_DATE('08/08/2022 12:51:35', 'dd/mm/yyyy hh24:mi:ss')
+'N',
+null,
+113,
+52,	
+49050,
+19,
+null,
+12
+)
+
+git config --global user.email "cgarzon@pragmaticasoftware.com" 
+
+D:\Sitios\Orion\WebSite\ORION_CAR
+
+INSERT INTO U_DDAP__
+(
+U_DDAP___SECUENCIA,
+U_DDAP___AUDAUTCRE,
+U_DDAP___AUDFECCRE,
+U_DDAP___AUDAUTMOD,
+U_DDAP___AUDFECMOD,
+U_DDAP___AUDTIPMOD,
+U_DDAP___ESTANTPAR_U_ELLIGE,
+U_DDAP___PARTAFEC__U_PAPRDI,
+U_DDAP___ETATOMDEC_U_ETPRDI
+)
+VALUES
+(
+U_DDAP___SEQ.NEXTVAL,
+'orion',
+sysdate,
+'orion',
+sysdate,
+'E',
+70,
+18820,
+11043)
+
+
+
+Proyectar Auto que resuelve apelación - Etapa de instrucción 
+
+INSERT INTO U_DECDIS
+(U_DECDIS_SECUENCIA,
+U_DECDIS_PRODISPAD_U_PRODIS,
+U_DECDIS_TIPODECI__U_TIDEDI,
+U_DECDIS_AUDAUTCRE,
+U_DECDIS_AUDFECCRE,
+U_DECDIS_AUDAUTMOD,
+U_DECDIS_AUDFECMOD,
+U_DECDIS_AUDTIPMOD,
+U_DECDIS_AUTOEMIT__U_AUTDIS,
+U_DECDIS_ESTADECI__U_ELLIGE,
+U_DECDIS_TIPDOCDEC_U_ELLIGE,
+U_DECDIS_SEDEEMIT__U_GRUCOM)
+VALUES
+(
+U_DECDIS_SEQ.NEXTVAL,
+7587,
+1,
+'orion',
+sysdate,
+'orion',
+sysdate,
+'E',
+8,
+323,
+84,
+6)
+
+
+INSERT INTO U_CYND__
+(U_CYND___SECUENCIA,
+U_CYND___AUDAUTCRE,
+U_CYND___AUDFECCRE,
+U_CYND___AUDAUTMOD,
+U_CYND___AUDFECMOD,
+U_CYND___AUDTIPMOD,
+U_CYND___DECIPADR__U_DECDIS,
+U_CYND___PARTINFO__U_PAPRDI,
+U_CYND___TIPOCOMU__U_ELLIGE,
+U_CYND___TERCDEST__U_TERCER,
+U_CYND___TIPDESCOM_U_ELLIGE)
+VALUES
+(U_CYND___SEQ.NEXTVAL
+'orion',
+SYSDATE,
+'orion',
+SYSDATE,
+'N',
+17974,
+15267,
+59,
+11343,
+99)
+
+
+INSERT INTO U_RONDE_
+(U_RONDE__SECUENCIA,
+U_RONDE__AUDAUTCRE,
+U_RONDE__AUDFECCRE,
+U_RONDE__AUDAUTMOD,
+U_RONDE__AUDFECMOD,
+U_RONDE__AUDTIPMOD,
+U_RONDE__BUSOBJECT,
+U_RONDE__DOCUASOC__U_DOEXDI,
+U_RONDE__EMBEBIDO_,
+U_RONDE__OBJINSID_)
+VALUES
+(U_RONDE__SEQ.NEXTVAL,
+'macardenasma',
+SYSDATE
+'macardenasma',
+SYSDATE,
+'N',
+293,
+178568, -- 178568, 178699, 178698, 178697
+0,
+7553)
+
+
+INSERT INTO NUGEIT
+(NUGEIT_INTESEQU_,
+NUGEIT_INTESEQU__NUMGEN,
+NUGEIT_NUMBGENE_,
+NUGEIT_STATE____,
+NUGEIT_AUDCREDAT,
+NUGEIT_AUDUPDDAT,
+NUGEIT_HASHKEY__)
+VALUES
+(NUGEIT_SEQ.NEXTVAL,
+8,
+14,
+'U',
+SYSDATE,
+SYSDATE,
+62025)
+
+
